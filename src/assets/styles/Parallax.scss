@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@font-face {
+    font-family: 'rofitasteregular';
+    src: url('../fonts/rofitaste-webfont.woff2') format('woff2'),
+         url('../fonts/rofitaste-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* FONTS */
+@mixin handwriting {
+	font-family: 'rofitasteregular';
+}
+
+@mixin serif {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+@mixin sans-serif {
+	font-family: 'Poppins', sans-serif;
+}
+
+@mixin parallax-bg {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* FLEX-BOX OPTIONS */
+@mixin flex-row-space {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+@mixin flex-column {
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+// others
+
+@mixin margin-auto ($top-bot, $left-right) {
+	margin: $top-bot $left-right;
+}
+
+html, body, button {
+	@include sans-serif;
+}
+
+.parallax{
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	perspective: 2px;
+	transform-style: preserve-3d;
+}
+
+.section {
+	position: relative;
+	height: 100vh;
+	overflow-y: hidden;
+}
+
+.content {
+	height: 100vh;
+	position: relative;
+	display: flex;
+	@include flex-column;
+}
+
+.container {
+	@include margin-auto(0, auto);
+	left: 0;
+	right: 0;
+	padding: 50px;
+}
+
+.content_box {
+	height: 80vh;
+	position: relative;
+	display: flex;
+	@include flex-column;
+}
+
+.testimonial-container {
+	display:flex;
+	@include flex-row-space;
+}
+
+.testimonial-1 {
+	background-color: #E4CCC7; 
+}
+
+.testimonial-2 {
+	background-color: #BFB2C3; 
+}
+
+.testimonial-3 {
+	background-color: #b19db7; 
+}
+.box-1 div,
+.box-2 div{
+	border: 19px #faf9fe solid;
+	padding: 45px;
+}
+
+.box_1, .box_2,  .box_3,  .box_4 {
+	flex: 1;
+}
+
+.parallax::after {
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	transform: translateZ(-1px) scale(1.5);
+	background-size: 100%;
+	z-index: -1;
+}
+
+/* The styling for the static div. */
+.static {
+	background: #FAF9FE;
+}
+
+.bg1::after {
+	@include parallax-bg;
+	background-image: url('/images/001.jpg');
+}
+
+.bg2::after {
+	@include parallax-bg;
+	background-image: url('/images/004.jpg');
+}
+
+.bg3::after {
+	@include parallax-bg;
+	background-image: url('/images/003.jpg');
+}
+
+/* TEXT STYLES */
+.s-title {
+	@include handwriting;
+	font-weight: normal;
+	font-size: 320px !important;
+	color: #3A3D42;
+}
+
+p {
+	font-size: 20px;
+	font-weight: bold;
+	color: #b19db7;
+}
+
+.text-white {
+	color: #FAF9FE ;
+}
+
+.ls {
+	@include margin-auto(0, auto);
+	letter-spacing: 4px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 33%;
+	text-align: center;
+}
+
+.description {
+	@include serif;
+	font-weight: normal;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/*custom button*/
+.btn-more{
+	border: 5px solid #3A3D42;
+	background: #FAF9FE;
+	color: #3A3D42;
+	padding: 30px 30px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background-color 0.2s ease, color 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-more:hover,
+.btn-more:active{
+  background-color: #3A3D42;
+  color: #FAF9FE;
+}
