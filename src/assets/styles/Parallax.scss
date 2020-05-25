@@ -136,30 +136,29 @@ html, body, button {
 
 .bg1::after {
 	@include parallax-bg;
-	background-image: url('/images/001.jpg');
+	background-image: url('../images/001.jpg');
 }
 
 .bg2::after {
 	@include parallax-bg;
-	background-image: url('/images/004.jpg');
+	background-image: url('../images/004.jpg');
 }
 
 .bg3::after {
 	@include parallax-bg;
-	background-image: url('/images/003.jpg');
+	background-image: url('../images/003.jpg');
 }
 
 /* TEXT STYLES */
 .s-title {
 	@include handwriting;
 	font-weight: normal;
-	font-size: 320px !important;
+	font-size: 290px !important;
 	color: #3A3D42;
 }
 
 p {
 	font-size: 20px;
-	font-weight: bold;
 	color: #b19db7;
 }
 
@@ -194,7 +193,7 @@ p {
 	padding: 30px 30px;
 	font-size: 20px;
 	font-weight: bold;
-	transition: background-color 0.2s ease, color 0.5s ease;
+	transition: background-color 0.1s ease, color 0.1s ease;
     cursor: pointer;
 }
 

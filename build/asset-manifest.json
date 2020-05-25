@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a95daa3a.chunk.css",
-    "main.js": "/static/js/main.545b3ee1.chunk.js",
-    "main.js.map": "/static/js/main.545b3ee1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5a4c86da.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5a4c86da.js.map",
-    "static/js/2.0c12533d.chunk.js": "/static/js/2.0c12533d.chunk.js",
-    "static/js/2.0c12533d.chunk.js.map": "/static/js/2.0c12533d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.cd6a3f9d60592e34f17261ca68b4073c.js": "/precache-manifest.cd6a3f9d60592e34f17261ca68b4073c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.a95daa3a.chunk.css.map": "/static/css/main.a95daa3a.chunk.css.map",
-    "static/js/2.0c12533d.chunk.js.LICENSE.txt": "/static/js/2.0c12533d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
-    "static/media/Parallax.scss": "/static/media/rofitaste-webfont.f6c84d30.woff"
+    "main.css": "/Tinta-Preview/static/css/main.1ee194fc.chunk.css",
+    "main.js": "/Tinta-Preview/static/js/main.eaac32c7.chunk.js",
+    "main.js.map": "/Tinta-Preview/static/js/main.eaac32c7.chunk.js.map",
+    "runtime-main.js": "/Tinta-Preview/static/js/runtime-main.20eba386.js",
+    "runtime-main.js.map": "/Tinta-Preview/static/js/runtime-main.20eba386.js.map",
+    "static/js/2.0c12533d.chunk.js": "/Tinta-Preview/static/js/2.0c12533d.chunk.js",
+    "static/js/2.0c12533d.chunk.js.map": "/Tinta-Preview/static/js/2.0c12533d.chunk.js.map",
+    "index.html": "/Tinta-Preview/index.html",
+    "precache-manifest.407cc2826460cfb7bc6068a58d84c7a9.js": "/Tinta-Preview/precache-manifest.407cc2826460cfb7bc6068a58d84c7a9.js",
+    "service-worker.js": "/Tinta-Preview/service-worker.js",
+    "static/css/main.1ee194fc.chunk.css.map": "/Tinta-Preview/static/css/main.1ee194fc.chunk.css.map",
+    "static/js/2.0c12533d.chunk.js.LICENSE.txt": "/Tinta-Preview/static/js/2.0c12533d.chunk.js.LICENSE.txt",
+    "static/media/Parallax.scss": "/Tinta-Preview/static/media/rofitaste-webfont.f6c84d30.woff",
+    "static/media/logo.svg": "/Tinta-Preview/static/media/logo.ee7cd8ed.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5a4c86da.js",
+    "static/js/runtime-main.20eba386.js",
     "static/js/2.0c12533d.chunk.js",
-    "static/css/main.a95daa3a.chunk.css",
-    "static/js/main.545b3ee1.chunk.js"
+    "static/css/main.1ee194fc.chunk.css",
+    "static/js/main.eaac32c7.chunk.js"
   ]
 }
